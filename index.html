@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bouncing Ball?</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<form>
+			<input type="checkbox" name="q" id="qCheck" checked>Quarter Note<br>
+			<input type="checkbox" name="e" id="eCheck">Eighth Note<br>
+			<input type="checkbox" name="t" id="tCheck">Eighth Note Triplet<br>
+			<input type="checkbox" name="s" id="sCheck">Sixteenth Note
+		</form>
+		<div id="ballContainer">
+			<div class="ball" id="qBall"></div>
+			<div class="ball" id="eBall"></div>
+			<div class="ball" id="tBall"></div>
+			<div class="ball" id="sBall"></div>
+		</div>
+		<div id="bottom"></div>
+
+		<!-- JS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://rawgit.com/web-animations/web-animations-js/master/web-animations.min.js"></script>
+		<script type="text/javascript" src="js/animation.js"></script>
+		<script type="text/javascript" src="js/checkboxes.js"></script>
+	</body>
+</html>
